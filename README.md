@@ -3,8 +3,7 @@
 This repository contains the source code for my personal website. The website showcases my portfolio, courses, and contact information. The project is built using HTML, CSS, and Font Awesome for icons.
 
 ## Project Structure
-
-``
+""
   project/
   │
   ├── CSS/
@@ -19,4 +18,5 @@ This repository contains the source code for my personal website. The website sh
   │ └── ai-courses.jpg
   ├── index.html
   └── README.md
-``
+
+""
