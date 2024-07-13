@@ -4,7 +4,7 @@ This repository contains the source code for my personal website. The website sh
 
 ## Project Structure
 
-`
+``
 project/
 │
 ├── CSS/
@@ -19,4 +19,4 @@ project/
 │ └── ai-courses.jpg
 ├── index.html
 └── README.md
-`
+``
