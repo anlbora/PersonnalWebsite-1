@@ -1,1 +1,191 @@
+/* Base CSS - Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+html{
+    font-family: "Open Sans", sans-serif;
+}
 
+/* Header - Navbar*/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+#navbar{
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0.75rem;
+    height: 5rem;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background-color: #256ea1;
+    border-radius: 0.3rem;
+}
+
+/* Home */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid grey;
+}
+section#home img{
+    max-width: 20%;
+    height: auto;
+    border-radius: 100%;
+}
+section#home p{
+    opacity: 0.6;
+    font-style: italic;
+}
+section#home h2{
+    margin-top: 0.75rem;
+}
+
+/* Training */
+#training{
+    color: #FFF;
+    padding: 1rem;
+}
+#training .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item{
+    text-align: center;
+    padding: 0.5rem;
+    width: 33%;
+}
+#training .items .item:hover{
+    color: #256ea1;
+    background-color: #FFF;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+/* Courses */
+#courses{
+    color: #333;
+    padding: 1rem;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.courses .course{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.courses .course .course-img{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.courses .course .course-img span{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 0.2rem;
+}
+.courses .course .course-info .title{
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.courses .course .course-info .description{
+    letter-spacing: 0.1rem;
+    opacity: 0.7;
+    margin-bottom: 0.25rem;
+    text-align: justify;
+}
+.courses .course .course-info .instructor{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+}
+.courses .course .course-info .rating{
+    font-size: 0.7rem;
+    opacity: 0.8;
+    margin-bottom: 0.25rem;
+}
+
+/* Contact CSS */
+#contact{
+    color: #FFF;
+    padding: 1rem;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.6;
+}
+
+/* UP CSS */
+a#up{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+    background-color: #256ea1;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a#up i{
+    font-size: 2rem;
+}
+a#up:hover{
+    background-color: white;
+    color: #256ea1;
+    cursor: pointer;
+    border: 1px solid #256ea1;
+}
