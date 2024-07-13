@@ -5,18 +5,18 @@ This repository contains the source code for my personal website. The website sh
 ## Project Structure
 
 ``
-project/
-│
-├── CSS/
-│ ├── global.css
-│ ├── main.css
-│ ├── tablet.css
-│ └── mobile.css
-├── images/
-│ ├── anilbora.jpeg
-│ ├── python-course.jpg
-│ ├── data-science-course.jpg
-│ └── ai-courses.jpg
-├── index.html
-└── README.md
+  project/
+  │
+  ├── CSS/
+  │ ├── global.css
+  │ ├── main.css
+  │ ├── tablet.css
+  │ └── mobile.css
+  ├── images/
+  │ ├── anilbora.jpeg
+  │ ├── python-course.jpg
+  │ ├── data-science-course.jpg
+  │ └── ai-courses.jpg
+  ├── index.html
+  └── README.md
 ``
