@@ -71,7 +71,7 @@ The body contains the following sections:
 
 ## CSS Details
 ### Reset and Base Styles
-```
+```css
 /* Base CSS - Reset CSS */
 *{
     margin: 0;
@@ -88,7 +88,7 @@ html{
 ```
 
 ### Header and Navbar Styles
-```
+```css
 /* Header - Navbar*/
 header{
     position: sticky;
@@ -118,7 +118,7 @@ header{
 ```
 
 ### Section Details
-```
+```css
 /* Home */
 #home{
     display: flex;
@@ -142,7 +142,7 @@ section#home h2{
 }
 ```
 ### Training Section
-```
+```css
 /* Training */
 #training{
     color: #FFF;
@@ -166,7 +166,7 @@ section#home h2{
 ```
 
 ### Courses Section
-```
+```css
 /* Courses */
 #courses{
     color: #333;
@@ -219,7 +219,7 @@ section#home h2{
 }
 ```
 ### Contact Section
-```
+```css
 /* Contact CSS */
 #contact{
     color: #FFF;
@@ -248,7 +248,7 @@ section#home h2{
 ```
 
 ### Miscellaneous Styles
-```
+```css
 /* UP CSS */
 a#up{
     width: 4rem;
